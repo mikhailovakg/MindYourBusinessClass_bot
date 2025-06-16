@@ -1,4 +1,4 @@
-# MindYourBusinessClass Telegram Bot for chep business class tickets search
+# MindYourBusinessClass Telegram Bot for cheap business class tickets search
 
 A Telegram bot that helps users find the cheapest business class flights using the Amadeus API. 
 Built with Python, this bot allows users to enter a route and date, and it returns real-time flight options directly in Telegram.
