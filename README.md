@@ -30,19 +30,21 @@ Built with Python, this bot allows users to enter a route and date, and it retur
 
 ```bash
 git clone https://github.com/your-username/flight-search-telegram-bot.git
-cd flight-search-telegram-bot```
+cd flight-search-telegram-bot
+```
 
 ### 2. Install Dependencies
 ```
 pip install -r requirements.txt
-
+```
 
 ### 3. Create a .env File
 Add your API keys to a .env file in the root:
 ```
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 AMADEUS_API_KEY=your_amadeus_api_key
-AMADEUS_API_SECRET=your_amadeus_api_secret```
+AMADEUS_API_SECRET=your_amadeus_api_secret
+```
 
 You can get the Telegram token via @BotFather
 Amadeus credentials are available from developers.amadeus.com
@@ -63,7 +65,7 @@ $1315.00 | LH LAX→FRA ➔ LH FRA→JFK | 2025-06-10 14:20
 
 
 ---
-Project Structure
+## Project Structure
 telegram-bot/
 ├── main.py               # Bot entry point
 ├── config.py             # Loads API keys from .env
